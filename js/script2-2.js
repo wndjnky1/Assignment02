@@ -35,7 +35,7 @@ var yourNum= prompt('Please enter a number');
 window.console.log(Math.sqrt(yourNum));
 */
 
-/* 
+/*
 // 2.2.2 STEP 6
 var todayDate = new Date();
 console.log(todayDate.toDateString());
@@ -102,8 +102,8 @@ if(todayIs.getDay() == 0 ){
             } else if(todayIs.getDay() == 6 ) {
                 window.console.log('Yesterday was ' + daysWeek[5]);
     }
-
 */
+
 
 /*
 // 2.2.2 STEP 11
@@ -178,21 +178,20 @@ for (var i=0; i < num.length; i++) {
 /*
 // 2.2.3 STEP 15
      
-      for (var i=0; i < 100; i++) {
-           if(i % 3 == 0) {
-            window.console.log(i + ' Fizz');         
+    for (var i=0; i < 100; i++) {
+        if ((i % 3 == 0) && (i % 5 == 0)) {
+            window.console.log(i + ' FizzBuzz');     
          }
-          else if (i % 5 == 0) {
+        else if(i % 3 == 0) {
+            window.console.log(i + ' Fizz'); 
+          }
+        else if (i % 5 == 0) {
             window.console.log(i + ' Buzz');    
           }
-          if ((i % 3 == 0) && (i % 5 == 0)) {
-             window.console.log(i + ' FizzBuzz');   
-          }
-          else if ((i % 3 != 0) && (i % 5 != 0)) {
+        else if ((i % 3 != 0) && (i % 5 != 0)) {
             window.console.log(i);  
-          }
+      }    
 }; 
-
 */
 
 /*
@@ -205,13 +204,20 @@ var youReady = confirm('Are you ready to play the game?');
      else if (youReady == false) {
     alert('Too bad, we’re going to play anyway because our hero desperately needs your help!');
 }
+*/
+
+/*
 //2.2.4 STEP 2
 alert('You are in a dark, dingy, and humid cave searching for the lost treasure of Captain Chingadera. You are disoriented, lost, hungry and extremely thirsty. You see a speck of light in the distance ahead of you, something shimmering to your right, and the sound of running water to your left. Your back is against the wall…');
+*/
 
+/*
 //2.2.4 STEP 3
 var pickDir = prompt('Which direction would you like to head (please enter forward, left, or right).');
 var message;
+*/
 
+/*
 //2.2.4 STEP 4
 switch ( pickDir ) {
     case 'forward':
@@ -227,7 +233,9 @@ switch ( pickDir ) {
         alert(message = 'The ghost of Captain Chingadera has condemned you to eternal damnation and you shall now burn in the hot excoriation for lifeless lowlifes for not choosing the correct option…loser.');
         break;
 }
+*/
 
+/*
 //2.2.4 STEP 5
 var rateUs = prompt( 'Please rate this game on a scale of 1 thru 10 ');
  if (rateUs >=6 && rateUs <= 10 ){
@@ -236,8 +244,9 @@ var rateUs = prompt( 'Please rate this game on a scale of 1 thru 10 ');
 else if (rateUs >=1 && rateUs <6) {
     alert('Whatever, you weren’t very good at this game anyway!');
 }
+*/
 
-
+/*
 //2.2.4 STEP 6
 var rateUs;
 while (true) {
@@ -337,6 +346,8 @@ else if  ((isValid == false) && (choice == 'Tails')) {
 // 2.2.6 The “Coin Flip” Game Redux
 // 2.2.6 STEP 1
 var coinFlip;
+*/
+/*
 // 2.2.6 STEPs 2 & 3
 for (var i=0; i < 10; i++) {
     coinFlip = Math.random ( );
@@ -356,12 +367,16 @@ for (var i=0; i < 10; i++) {
 // 2.2.7 The “Coin Flip Streak” Game
 // 2.2.7 STEP 1
 var coinFlip;
+*/
+
+/*
 // 2.2.7 STEPs 2 & 3
 do {
     coinFlip = Math.random ( );
     var coinFlipInt = Math.round (coinFlip);
     //window.console.log(coinFlipInt);
-    
+ */   
+/*   
 // 2.2.7 STEP 4    
     if (coinFlipInt == 0) {
        console.log(' Heads');

@@ -1,4 +1,6 @@
-/* Assignment 2 - Part 1
+
+/*
+//Assignment 2 - Part 1
 // STEP 1
 var name = prompt('Please enter your name');
 alert(name.length);
@@ -69,7 +71,10 @@ var thisString = 'the quick brown fox jumps over the lazy dog';
 var initCap = (thisString.charAt(0));
 var cap = (initCap.replace('t','T'));
 alert(thisString.replace(initCap, cap));
+//or
+//console.log(thisString.replace(initCap, cap));
 */
+
 
 
 
