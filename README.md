@@ -1,1 +1,2 @@
-# COMM644 - Assignment02
+#Assignment02
+COMM644 - Assignment02
